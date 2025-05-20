@@ -20,12 +20,19 @@ Ce projet est une simulation visuelle du système solaire réalisée en **Python
 
 \`\`\`
 .
+
 ├── main.py              # Contrôle principal du jeu (navigation entre scènes)
+
 ├── home.py              # Écran d’accueil avec boutons Start/Exit
+
 ├── Simulation.py        # Simulation des planètes et de leurs mouvements
+
 ├── planets.py           # Classe représentant une planète avec orbite
+
 ├── Button.py            # Classe réutilisable pour dessiner des boutons
+
 ├── constantes.py        # Constantes globales (taille écran, couleurs, etc.)
+
 ├── planets1.jpg         # Image utilisée dans l’écran d’accueil
 \`\`\`
 
@@ -45,23 +52,6 @@ pip install pygame
 python main.py
 \`\`\`
 
----
-
-## 💡 Personnalisation possible
-
-Tu peux facilement améliorer ce projet en ajoutant :
-
-- Un bouton **Retour** dans la simulation
-- Une **musique de fond** avec `pygame.mixer`
-- Des **infos interactives** sur chaque planète (nom, distance, etc.)
-- Un **mode nuit** ou **mode éducatif**
-- Des **animations plus réalistes** avec textures et vitesses orbitales réelles
-
----
-
-## 📷 Aperçu
-
-![Aperçu Simulation](python/planets1.jpg)
 
 ---
 
@@ -72,12 +62,6 @@ Ce projet a été réalisé pour :
 - Apprendre à structurer un projet Python en POO
 - Utiliser **Pygame** pour les interfaces et animations
 - S'entraîner à créer une **navigation entre écrans** dans un programme graphique
-
----
-
-## 📄 Licence
-
-Ce projet est fourni à titre éducatif. Tu peux le modifier et le partager librement.
 
 ---
 
