@@ -18,8 +18,8 @@ Ce projet est une simulation visuelle du système solaire réalisée en **Python
 
 ## 🧱 Structure du projet
 
-\`\`\`
-
+```
+/votre_dossier/
 ├── main.py              # Contrôle principal du jeu (navigation entre scènes)
 ├── home.py              # Écran d’accueil avec boutons Start/Exit
 ├── Simulation.py        # Simulation des planètes et de leurs mouvements
@@ -27,7 +27,7 @@ Ce projet est une simulation visuelle du système solaire réalisée en **Python
 ├── Button.py            # Classe réutilisable pour dessiner des boutons
 ├── constantes.py        # Constantes globales (taille écran, couleurs, etc.)
 ├── planets1.jpg         # Image utilisée dans l’écran d’accueil
-\`\`\`
+```
 
 ---
 
@@ -35,15 +35,15 @@ Ce projet est une simulation visuelle du système solaire réalisée en **Python
 
 1. ✅ Installez les dépendances (seulement `pygame`) :
 
-\`\`\`bash
+```bash
 pip install pygame
-\`\`\`
+```
 
 2. ▶️ Lancez le fichier principal :
 
-\`\`\`bash
+```bash
 python main.py
-\`\`\`
+```
 
 
 ---
