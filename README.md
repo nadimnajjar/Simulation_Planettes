@@ -19,20 +19,13 @@ Ce projet est une simulation visuelle du système solaire réalisée en **Python
 ## 🧱 Structure du projet
 
 \`\`\`
-.
 
 ├── main.py              # Contrôle principal du jeu (navigation entre scènes)
-
 ├── home.py              # Écran d’accueil avec boutons Start/Exit
-
 ├── Simulation.py        # Simulation des planètes et de leurs mouvements
-
 ├── planets.py           # Classe représentant une planète avec orbite
-
 ├── Button.py            # Classe réutilisable pour dessiner des boutons
-
 ├── constantes.py        # Constantes globales (taille écran, couleurs, etc.)
-
 ├── planets1.jpg         # Image utilisée dans l’écran d’accueil
 \`\`\`
 
